@@ -1,8 +1,9 @@
 # Youtube Downloader ![AUR](https://img.shields.io/badge/BUILT%20WITH-Android%20Studio-red.svg)
 Android app to download your favourite YouTube videos.  
+
 1. Copy the YouTube url
 2. Add the widget to your home screen
-3. hit download and enjoy!
+3. hit download and enjoy!  
 ![AUR](https://github.com/agarwal-akash/Youtube-Downloader/blob/master/youtube.png)  
 
 ## Download
