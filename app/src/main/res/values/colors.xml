@@ -3,4 +3,5 @@
     <color name="colorPrimary">#F44336</color>
     <color name="colorPrimaryDark">#D32F2F</color>
     <color name="colorAccent">#FF5722</color>
+    <color name="widgetBackground">#332f2f</color>
 </resources>

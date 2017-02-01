@@ -3,7 +3,7 @@
                     android:initialKeyguardLayout="@layout/downloader_widget"
                     android:initialLayout="@layout/downloader_widget"
                     android:minHeight="40dp"
-                    android:minWidth="40dp"
+                    android:minWidth="250dp"
                     android:previewImage="@mipmap/ic_launcher"
                     android:resizeMode="horizontal|vertical"
                     android:widgetCategory="home_screen">

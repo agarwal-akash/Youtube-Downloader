@@ -17,6 +17,7 @@ import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.widget.EditText;
 import android.widget.RemoteViews;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -128,6 +129,7 @@ public class DownloaderWidget extends AppWidgetProvider {
             //Vid=path.substring(start);
             //Toast.makeText(this,Vid, Toast.LENGTH_SHORT).show();
             Log.d("MainActivity-OnCreate",Vid);
+            Toast.makeText(context,"Starting download...",Toast.LENGTH_SHORT).show();
             new Thread(new Runnable() {
                 @Override
                 public void run() {
@@ -139,6 +141,7 @@ public class DownloaderWidget extends AppWidgetProvider {
 
     private void downloadFile(String vid,String file,Context context)
     {
+
         //getting Vid
         String API_URL="https://ytgrabber.p.mashape.com/app/get/"+vid;
         String finalURL="";

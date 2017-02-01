@@ -1,17 +1,38 @@
 <FrameLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/widgetBackground"
     android:padding="@dimen/widget_margin"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button
-        android:id="@+id/fabWidget"
+
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/download"
-        android:textSize="12sp"
-        android:textColor="#FFFF"
-        android:src="@drawable/ic_get_app_white_24dp"
-        android:background="@color/colorPrimary"/>
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/youtube_downloader"
+            android:textColor="#FFFF"
+            android:paddingRight="8dp"
+            android:textSize="20sp"/>
+        <!--<View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />-->
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+        <Button
+            android:id="@+id/fabWidget"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="8dp"
+            android:drawableLeft="@drawable/ic_get_app_white_24dp"
+            android:background="@color/widgetBackground"/>
+    </LinearLayout>
+
 </FrameLayout>

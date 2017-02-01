@@ -3,4 +3,5 @@
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>
     <string name="download">Download</string>
+    <string name="youtube_downloader">Youtube Downloader</string>
 </resources>
